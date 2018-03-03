@@ -13,13 +13,13 @@ TODO: add face binary sensor
 
 ## 配置示例 :
 binary_sensor:
-* -- platform : baidu_face
-*    #从百度ai开放平台人脸识别应用中获取
-*    app_id : xxxxxxxxxx
-*    api_key : xxxxxxxxxxxxxxxxxxx
-*    secret_key: xxxxxxxxxxxxxxxxxxxxxxxxxx
-*    group_id: xxxxxx
-*    #homeassistant端口
+*platform : baidu_face
+*#从百度ai开放平台人脸识别应用中获取
+*app_id : xxxxxxxxxx
+*api_key : xxxxxxxxxxxxxxxxxxx
+*secret_key: xxxxxxxxxxxxxxxxxxxxxxxxxx
+*group_id: xxxxxx
+*#homeassistant端口
 *    port: 8123
 *    #ha密码
 *    ha_passwd: xxxxxxxxxxx
