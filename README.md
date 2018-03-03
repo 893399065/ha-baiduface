@@ -11,19 +11,16 @@ TODO: add face binary sensor
 2. 请在configuration.yaml的同一目录下新建文件夹 custom_components/binary_sensor                              
 3. 在下该插件, 并将该插件放置于binary_sensor文件夹下
 
-配置示例 :
+## 配置示例 :
 binary_sensor:
-*  - platform : baidu_face
-*  ##从百度ai人脸识别平台的应用管理里获取
+* -platform : baidu_face
 *  app_id : xxxxxxxxxx
 *  api_key : xxxxxxxxxxxxxxxxxxx
 *  secret_key: xxxxxxxxxxxxxxxxxxxxxxxxxx
 *  group_id: xxxxxx
-*  ##homeassistant 端口
+*  homeassistant 端口
 *  port: 8123
-*  ##homeassistant 密码(可以为空)
 *  ha_passwd: xxxxxxxxxxx
-*  ## 摄像头entity_id
 *  entity_id: camera.mjpeg_camera
-*  ## 刷新频率(1~30s)
+*  刷新频率(1~30s)
 *  scan_interval: 2
