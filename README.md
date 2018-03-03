@@ -7,7 +7,7 @@ TODO: add face binary sensor
 该 baidu_face 二进制传感器插件是利用百度人脸识别api进行人脸识别。插件会一直获取homeassistant中摄像头图片，然后进行识别。若果识别成功或者失败，传感器会做出相应的图标改变和状态的改变。
     
 ## Installing
-1) 如果你是树莓派用户，那么需要先进入虚拟环境， 然后输入 ```bash pip3 install baidu-aip ```(如果你是其他用户，那么请在homeassistant的安装环境里执行相应的命令来安装模块。)
+1) 如果你是树莓派用户，那么需要先进入虚拟环境， 然后输入```bash pip3 install baidu-aip ```来安装百度AI库(如果你是其他用户，那么请在homeassistant的安装环境里执行相应的命令来安装模块。)
 2) 请在configuration.yaml的同一目录下新建文件夹 custom_components/binary_sensor                              
 3) 在下该插件, 并将该插件放置于binary_sensor文件夹下
 
