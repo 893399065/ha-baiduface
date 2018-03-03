@@ -12,6 +12,7 @@ TODO: add face binary sensor
 3. 在下该插件, 并将该插件放置于binary_sensor文件夹下
 
 ## 配置示例 :
+```bash
 binary_sensor:
 * -platform : baidu_face
 *  #从百度ai开放平台人脸识别应用中获取
@@ -27,3 +28,4 @@ binary_sensor:
 *  entity_id: camera.mjpeg_camera
 *  #刷新频率(1~30s)
 *  scan_interval: 2
+```
