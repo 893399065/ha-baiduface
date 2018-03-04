@@ -30,5 +30,6 @@ binary_sensor:
       scan_interval: 2
 ```
 
-image:: https://img.shields.io/coveralls/home-assistant/home-assistant.svg
+![识别成功](https://github.com/893399065/ha-baiduface/blob/master/QQ%E6%88%AA%E5%9B%BE20180304105608.jpg)
+![识别失败](https://github.com/893399065/ha-baiduface/blob/master/QQ%E6%88%AA%E5%9B%BE20180304105547.jpg)
 
