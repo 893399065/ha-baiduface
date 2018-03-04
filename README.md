@@ -28,6 +28,8 @@ binary_sensor:
       entity_id: camera.mjpeg_camera
       #刷新频率(1~30s)
       scan_interval: 2
+      #人脸识别阀值(推荐80以上,分数越高误拒率越高. 默认80该项可以不填)
+      pass_score: 80
 ```
 
 ![识别成功](https://github.com/893399065/ha-baiduface/blob/master/QQ%E6%88%AA%E5%9B%BE20180304105608.jpg)
