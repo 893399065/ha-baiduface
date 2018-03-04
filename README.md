@@ -18,7 +18,7 @@ binary_sensor:
       #从百度ai开放平台人脸识别应用中获取
       app_id : xxxxxxxxxx
       api_key : xxxxxxxxxxxxxxxxxxx
-      secret_key: xxxxxxxxxxxxxxxxxxxxxxxxxx
+      secret_key: xxxxxxxxxxxxxxxx
       group_id: xxxxxx
       #homeassistant端口
       port: 8123
