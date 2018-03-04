@@ -29,3 +29,4 @@ binary_sensor:
       #刷新频率(1~30s)
       scan_interval: 2
 ```
+.. |Build Status| image:: https://travis-ci.org/home-assistant/home-assistant.svg?branch=master
