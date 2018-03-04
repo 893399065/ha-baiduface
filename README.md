@@ -32,4 +32,4 @@ binary_sensor:
 
 ![识别成功](https://github.com/893399065/ha-baiduface/blob/master/QQ%E6%88%AA%E5%9B%BE20180304105608.jpg)
 ![识别失败](https://github.com/893399065/ha-baiduface/blob/master/QQ%E6%88%AA%E5%9B%BE20180304105547.jpg)
-
+![其他信息](https://github.com/893399065/ha-baiduface/blob/master/QQ%E6%88%AA%E5%9B%BE20180304144107.jpg)
