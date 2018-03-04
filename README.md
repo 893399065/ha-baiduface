@@ -29,5 +29,6 @@ binary_sensor:
       #刷新频率(1~30s)
       scan_interval: 2
 ```
+
 .. |Coverage Status| image:: https://img.shields.io/coveralls/home-assistant/home-assistant.svg
    :target: https://coveralls.io/r/home-assistant/home-assistant?branch=master
