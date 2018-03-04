@@ -30,3 +30,4 @@ binary_sensor:
       scan_interval: 2
 ```
 .. |Build Status| image:: https://travis-ci.org/home-assistant/home-assistant.svg?branch=master
+   :target: https://travis-ci.org/home-assistant/home-assistant
