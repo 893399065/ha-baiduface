@@ -9,7 +9,7 @@ TODO: add face binary sensor
 ## 安装
 1) 如果你是树莓派用户，那么需要先进入虚拟环境， 然后输入```pip3 install baidu-aip ```来安装百度AI库(如果你是其他用户，那么请在homeassistant的安装环境里执行相应的命令来安装库。)
 2) 请在configuration.yaml的同一目录下新建文件夹 custom_components/binary_sensor                              
-3) 下载插件, 并将baidu_face.py放置于binary_sensor文件夹下
+3) 下载插件, 并将 baidu_face.py 放置于 binary_sensor 文件夹下
 
 ## 配置示例 :
 ```bash
