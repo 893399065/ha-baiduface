@@ -26,7 +26,7 @@ binary_sensor:
       ha_passwd: xxxxxxxxxxx
       #摄像头entity_id
       entity_id: camera.mjpeg_camera
-      #刷新频率(1~30s)
+      #刷新间隔(1~30s)
       scan_interval: 2
       #人脸识别阀值(推荐80以上,分数越高误拒率越高. 默认80该项可以不填)
       pass_score: 80
