@@ -108,7 +108,7 @@ class FaceSensor(BinarySensorDevice):
 			if self._result["result"][0]["scores"][0]>self._pass_scores:
 				self._state = True
 			else:
-				self_state = False
+				self._state = False
 		else:
 			self._state = False
 
